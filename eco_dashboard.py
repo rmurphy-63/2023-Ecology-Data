@@ -184,12 +184,3 @@ country_df = culled_data.loc[culled_data['Country']==country]
 value = country_df['Carbon Footprint'].values[0]
 ranked_df = culled_data.rank(axis=0, ascending=False)
 rank = int(ranked_df.at[culled_data.index[culled_data['Country']==country].tolist()[0] , 'Carbon Footprint'])
-
-
-
-
-
-
-
-
-print('done!')
