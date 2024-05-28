@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn.impute import KNNImputer
 import streamlit as st
-filepath = 'E:/Research/Kaggle/Datasets/Global Ecological Footprint 2023.csv'
+filepath = 'Global Ecological Footprint 2023.csv'
 
 data = pd.read_csv(filepath, encoding='latin-1')
 
